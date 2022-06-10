@@ -9,8 +9,22 @@ public class Main {
     public static void main(String[] args) {
         //resolverEjercicioPromedio();
         //resolverEjercicioNumeroPositivo();
-        resolverAreaCuadrado();
-        resolverPerimetroCuadrado();
+        //resolverAreaCuadrado();
+        //resolverPerimetroCuadrado();
+        //listarMultiplos();
+        calcularMts();
+    }
+
+    public static void calcularMts(){
+        int millas = 8;
+        int mts = ConvertidorMts.convertirMillasMts(millas);
+        System.out.println("la cantidad en metros es: "+ mts);
+    }
+
+    public static void listarMultiplos(){
+        List<Integer> listaNumeros= List.of(1,2,3,4,5,6,7,8,9,10);
+        int multiplo = 2;
+        Multiplos.mostrarMultiplo(listaNumeros, multiplo);
     }
 
     public static void resolverPerimetroCuadrado(){
