@@ -17,6 +17,7 @@ public class Main {
         int lado= -4;
         int perimetro = Cuadrado.calcularPerimetro(lado);
         System.out.println("El perimetro es: " + perimetro);
+
     }
 
     public static void resolverAreaCuadrado(){
