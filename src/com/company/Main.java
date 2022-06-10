@@ -8,7 +8,21 @@ public class Main {
 
     public static void main(String[] args) {
         //resolverEjercicioPromedio();
-        resolverEjercicioNumeroPositivo();
+        //resolverEjercicioNumeroPositivo();
+        resolverAreaCuadrado();
+        resolverPerimetroCuadrado();
+    }
+
+    public static void resolverPerimetroCuadrado(){
+        int lado= -4;
+        int perimetro = Cuadrado.calcularPerimetro(lado);
+        System.out.println("El perimetro es: " + perimetro);
+    }
+
+    public static void resolverAreaCuadrado(){
+        int lado = -8;
+        int area = Cuadrado.calcularArea(lado);
+        System.out.println("El area es: " + area);
     }
 
     public static void resolverEjercicioNumeroPositivo() {
