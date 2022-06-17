@@ -12,7 +12,12 @@ public class Main {
         //resolverAreaCuadrado();
         //resolverPerimetroCuadrado();
         //listarMultiplos();
-        calcularMts();
+        //calcularMts();
+        pedirDatos();
+    }
+
+    public static void pedirDatos(){
+        IngresoDatos.ingresarDatos();
     }
 
     public static void calcularMts(){
