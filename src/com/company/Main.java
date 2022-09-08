@@ -13,7 +13,12 @@ public class Main {
         //resolverPerimetroCuadrado();
         //listarMultiplos();
         //calcularMts();
-        pedirDatos();
+        //pedirDatos();
+        muestraNumero();
+    }
+
+    public static void muestraNumero (){
+        MostrarNumeros.mostarNumero();
     }
 
     public static void pedirDatos(){
